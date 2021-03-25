@@ -1,0 +1,91 @@
+#newsletter{
+  background-color: purple;
+  }
+#newsletter img{
+  width: 50px;
+  padding: 0;
+}
+.logo{
+  display: inline-block;
+}
+
+#champs_newsletter div{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+input {
+  border-radius: 5px;
+}
+button {
+  background-color: rgb(23, 255, 2);
+}
+img:nth-child(1){
+  width: 60%;
+  height: 100%;
+  padding-left: 50px;
+}
+nav {
+  display: flex;
+  border-bottom: rgb(216, 214, 214) solid;
+}
+.menu li:nth-child(1) {
+  border-left: rgb(216, 214, 214) solid;
+}
+li:nth-child(8) {
+  border-left: rgb(216, 214, 216) solid;
+  padding-left: 80px;
+}
+.menu ul>li {
+  display: inline;
+  padding: 60px;
+}
+ul {
+  margin-top: 50px;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+h1::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 5%;
+  padding-top: 70px;
+  border-bottom: 1px solid black;
+}
+#contenu {
+  margin-left: 100px;
+}
+h2 {
+  font-size: 50px;
+}
+.section {
+  display: flex;
+  background-color: rgb(61, 61, 61);
+  height: 400px;
+}
+
+a>span {
+  float:right
+}
+.section {
+  justify-content: center;
+  margin-top: 80px;
+}
+.section div>a {
+  padding: 70px;
+}
+img + p {
+  background-color: rgb(61, 61, 61);
+  margin: 0
+}
+
+.section img {
+  margin-top: 30px;
+  height: 60px;
+  width: 60px;
+}
+
