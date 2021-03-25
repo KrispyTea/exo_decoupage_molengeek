@@ -9,14 +9,24 @@
   display: inline-block;
 }
 
-#champs_newsletter div{
+#champs_newsletter {
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
+  padding-left: 800px  
 }
-
+#newsletter {
+  display: flex;
+}
+#champs_newsletter span {
+  font-size: 20px;
+}
+button {
+  height: 20px;
+}
 input {
   border-radius: 5px;
+  height: 20px;
 }
 button {
   background-color: rgb(23, 255, 2);
@@ -40,6 +50,8 @@ li:nth-child(8) {
 .menu ul>li {
   display: inline;
   padding: 60px;
+  padding-top: 50px;
+  padding-bottom: 75px;
 }
 ul {
   margin-top: 50px;
@@ -54,10 +66,10 @@ h1::after {
   margin: 0 auto;
   width: 5%;
   padding-top: 70px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid purple;
 }
-#contenu {
-  margin-left: 100px;
+p,p + ul,h2 {
+  margin-left: 200px;
 }
 h2 {
   font-size: 50px;
@@ -69,14 +81,15 @@ h2 {
 }
 
 a>span {
-  float:right
+  float:right;
+  padding-top: 50px;
 }
 .section {
   justify-content: center;
   margin-top: 80px;
 }
 .section div>a {
-  padding: 70px;
+  padding-left: 70px;
 }
 img + p {
   background-color: rgb(61, 61, 61);
@@ -89,3 +102,6 @@ img + p {
   width: 60px;
 }
 
+section + img {
+  display: none;
+}
